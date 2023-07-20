@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body>
+    <a id="section-home"></a>
+    <div class="nav">
+      <div class="nav-logo">
+        <img src="images/logo.png" alt="logo of Dream Tours" />
+      </div>
+      <div class="navigation">
+        <ul class="nav-bar">
+          <li><a href="#section-home" class="main-nav-link">Home</a></li>
+          <li><a href="#section-about" class="main-nav-link">About us</a></li>
+          <li>
+            <a href="#section-contact" class="main-nav-link">Contact us</a>
+          </li>
+          <li>
+            <a href="#section-destination" class="main-nav-link"
+              >Discover Tours</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+    <header>
+      <div class="header-textbox">
+        <span class="header-primary--main">Dream Tours</span>
+        <br />
+        <span class="header-primary--sub">To Travel is to live</span>
+      </div>
+      <div class="header-cta">
+        <a href="#section-destination" class="header-cta--btn"
+          >Discover Tours</a
+        >
+      </div>
+    </header>
+
+    <!-- ***************
+    ********************
+    **SECTION ABOUT*****
+    ********************
+    ******************** -->
+    <a id="section-about"></a>
+    <div class="section section-about center">
+      <h3 class="heading-secondary">What we Offer.</h3>
+
+      <div class="section-about--textbox">
+        <p class="text-secondary">
+          Planning every single trip needs answers to a number of questions.
+          Dream Tours is attempting to collect all the information that you will
+          ever need to plan your trip - from when, where and how, to more hidden
+          gems in every destination, Dream Tours is the one-stop solution to all 
+          your travel planning needs.
+        </p>
+        <div class="section-about--gallery">
+          <img class="gallery-item gallery-item--1" src="images/chamundi.jpg" />
+          <img class="gallery-item gallery-item--2" src="images/myspal.jpg" />
+          <img class="gallery-item gallery-item--3" src="images/garden.jpg" />
+        </div>
+      </div>
+    </div>
+
+    <!-- **************
+    ********************
+    *SECTION DESTINATION*
+    ********************
+    ******************** -->
+    <a id="section-destination"></a>
+    <div class="section section-destination center">
+      <div class="card">
+        <img src="images/chamundi.jpg" alt="image" class="card-img" />
+        <div class="meal-card">
+          <p class="card-text">Chamundi Hills</p>
+          <ul>
+            <li>Timings : Anytime</li>
+            <li>Altitude: 3,489 ft. above sea level</li>
+            <li>Parking: Available</li>
+          </ul>
+        </div>
+        <a href="chamundi_hills.html" class="btn-know">Know More</a>
+      </div>
+      <div class="card">
+        <img src="images/myspal.jpg" alt="image" class="card-img" />
+        <div class="meal-card">
+          <p class="card-text">Mysore Palace</p>
+          <ul>
+            <li>Timings : 10:00 AM - 5:30 PM</li>
+            <li>Time Required : 2-3 hours</li>
+            <li>Parking: Available</li>
+          </ul>
+        </div>
+        <a href="mysore_palace.html" class="btn-know">Know More</a>
+      </div>
+      <div class="card">
+        <img src="images/garden.jpg" alt="image" class="card-img" />
+        <div class="meal-card">
+          <p class="card-text">Brindavan Garden</p>
+          <ul class="meal-attribute">
+            <li>Timings :6:00 am – 8:00 pm</li>
+            <li>Music Fountain Timings: <br>6:30 p.m. to 7:30 p.m.</li>
+            <li>Parking: Available</li>
+          </ul>
+        </div>
+        <a href="brindavan_gar.html" class="btn-know">Know More</a>
+      </div>
+    </div>
+    <!-- **************
+    ********************
+    *SECTION *
+    ********************
+    ******************** -->
+    <section class="section-cta" id="cta">
+      <div class="container">
+        <div class="cta">
+          <div class="cta-text-box">
+            <h2 class="heading-secondary">Plan your vacation with us!</h2>
+            <p class="cta-text">
+              Get amazed by the tradition of mysore, destinations so amazing
+              that it will make you go crazy. Hurry up register with us now!
+            </p>
+
+            <form action="#" class="cta-form">
+              <div>
+                <label for="full-name">Full Name</label>
+                <input
+                  id="full-name"
+                  type="text"
+                  placeholder="John Smith"
+                  required
+                />
+              </div>
+              <div>
+                <label for="e-mail">Email </label>
+                <input
+                  id="e-mail"
+                  type="email"
+                  placeholder="me@example.com"
+                  required
+                />
+              </div>
+              <div>
+                <label for="select-where">Where did you hear from us?</label>
+                <select id="select-where" required>
+                  <option value="">Please choose one option</option>
+                  <option value="friends">Friends and family</option>
+                  <option value="youtube">YouTube video</option>
+                  <option value="podcast">Podcast</option>
+                  <option value="ad">Facebook ad</option>
+                  <option value="others">Others</option>
+                </select>
+              </div>
+              <button class="btn--form">Sign up now</button>
+            </form>
+          </div>
+          <div
+            class="cta-img-box"
+            role="img"
+            aria-label="Woman enjoying food"
+          ></div>
+        </div>
+      </div>
+    </section>
+    <a id="section-contact"></a>
+    <footer class="footer">
+      <div class="container grid grid-footer">
+        <div class="logo-col">
+          <a href="#">
+            <img src="images/logo.png" class="logo" alt="Dream-Tours-logo" />
+          </a>
+          <ul class="social-links">
+            <li>
+              <a href="#" class="footer-link"
+                ><ion-icon class="social-logos" name="logo-instagram"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a href="#" class="footer-link"
+                ><ion-icon class="social-logos" name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a href="#" class="footer-link"
+                ><ion-icon class="social-logos" name="logo-twitter"></ion-icon
+              ></a>
+            </li>
+          </ul>
+          <p class="copyright">
+            Copyright&copy; <span class="year">2022</span> by Dream Tours Incl.
+            All rights reserved
+          </p>
+        </div>
+        <div class="address-col">
+          <p class="footer-heading">Contact us</p>
+          <address class="contacts">
+            <p class="address">
+              #1142/98, Ground Floor, Milk Centre road, Mysore,570008
+            </p>
+            <p>
+              <a class="footer-link" href="tel:415-201-6370">0522-1234-5678</a
+              ><br />
+              <a class="footer-link" href="hello@omnifood.com"
+                >hello@dreamtours.com</a
+              >
+            </p>
+          </address>
+        </div>
+        <nav class="nav-col">
+          <p class="footer-heading">Account</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Create Account</a></li>
+            <li><a class="footer-link" href="#">Sign in</a></li>
+            <li><a class="footer-link" href="#">IOS app</a></li>
+            <li><a class="footer-link" href="#">Android app</a></li>
+          </ul>
+        </nav>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Company</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#"> About Dream Tours</a></li>
+            <li><a class="footer-link" href="#">For Business</a></li>
+            <li><a class="footer-link" href="#">Travel partners</a></li>
+            <li><a class="footer-link" href="#">Careers</a></li>
+          </ul>
+        </nav>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Resources</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#"> Tour manager</a></li>
+            <li><a class="footer-link" href="#">Help center</a></li>
+            <li><a class="footer-link" href="#">Privacy & terms</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
